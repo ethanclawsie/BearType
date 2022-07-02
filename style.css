@@ -1,0 +1,33 @@
+body {
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+}
+
+.text-input {
+  margin-top: 4%;
+  background: transparent;
+  border: none;
+  color: #fff;
+  resize: none;
+  font-size: 400%;
+}
+
+.text-input:focus,
+input:focus {
+  background: transparent;
+  border: none;
+  color: #fff;
+  resize: none;
+  outline: none;
+  font-size: 400%;
+  cursor: none;
+}
+
+.quote {
+  font-size: 400%;
+}
+
+.timer {
+  font-size: 400%;
+}
