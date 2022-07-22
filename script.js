@@ -12,4 +12,11 @@ function getRandomQuote() {
 
 getRandomQuote().then((quote) => {
   document.getElementById("displayquote").innerHTML = quote;
+  const word = quote.split(" ");
+  var textarea = document.getElementById("textinput");
+  result = textarea.value;
+  function updateResult() {
+    alert("test");
+  }
+  textarea.addEventListener("keyup", updateResult);
 });
